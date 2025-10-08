@@ -54,8 +54,8 @@
     </body>
     <style>
         body {
-            background: #202124;
-            color: #fff;
+            background: pink;
+            color: pink;
             font-family: "Host Grotesk", sans-serif;
             margin: 0;
             font-size: 16px;
@@ -73,7 +73,7 @@
         }
         a {
             text-decoration: none;
-            color: #fff;
+            color: darkolivegreen;
         }
         div#header .header-column {
             display: flex;
@@ -97,7 +97,7 @@
             -moz-transition: all 0.3s ease;
         }
         #header a.header-icon:hover {
-            background: #4d5156;
+            background: peru;
         }
         #header a.header-icon svg path {
             fill: #fff;
@@ -115,7 +115,7 @@
             max-width: 600px;
         }
         form.search-form .search-box {
-            background: #4d5156;
+            background: purple;
             border-radius: 30px;
         }
         form.search-form .search-box svg path {
@@ -128,7 +128,7 @@
             height: 45px;
             background: none;
             border: none;
-            color: #fff;
+            color: darkgreen;
             outline: none;
             font-size: 16px;
         }
@@ -155,9 +155,9 @@
             grid-gap: 15px;
         }
         .search-buttons button {
-            background: #303134;
+            background: darkcyan;
             color: #fff;
-            border: 1px solid #303134;
+            border: 1px solid pink;
             border-radius: 6px;
             font-size: 14px;
             padding: 7px 15px;
@@ -173,7 +173,7 @@
             height: 55px;
             display: grid;
             grid: auto-flow dense / 1fr 1fr;
-            background: #171717;
+            background: darkorchid;
             padding: 0 20px;
             font-size: 14px;
         }

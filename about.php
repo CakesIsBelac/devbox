@@ -15,14 +15,14 @@
             <a href="/"><img src="/assets/codespaces.png" /></a>
             <div class="about__container">
                 <div class="about__left">
-                    <img src="/assets/default.jpg" />
+                    <img src="assets/Photo.jpeg" />
                 </div>
                 <div class="about__right">
                     <h1>About Me</h1>
-                    <h3 class="about-name">My Name</h3>
+                    <h3 class="about-name">Caleb</h3>
                     <p>Welcome to my about page! Here you can find more information about my background, skills, and interests.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut sem eu libero finibus scelerisque a vel nulla. Donec venenatis magna justo, at fringilla sapien convallis in. Suspendisse dapibus est sit amet mollis gravida. Aliquam vulputate purus id magna semper elementum. Praesent at faucibus quam, eget convallis risus. In eget magna semper nunc blandit elementum eget sed tellus. Sed a pulvinar sapien. Aenean vulputate enim vel finibus scelerisque. Vivamus vestibulum, risus non scelerisque hendrerit, diam magna efficitur dui, in rhoncus lorem arcu sed quam. Donec viverra arcu vel dapibus condimentum. Sed mattis placerat nulla, sit amet malesuada nisi molestie a. Nulla malesuada euismod massa id scelerisque. Morbi nec lectus ligula. Mauris sed sapien quis eros aliquet fringilla id ut felis. Sed eget condimentum leo. Morbi congue sapien eget iaculis pellentesque.</p>
-                    <p>Curabitur pellentesque pellentesque arcu, ac suscipit risus maximus at. Ut sed leo sit amet ante laoreet finibus non et neque. Nam ornare orci nisl, vel sagittis turpis laoreet eget. Nulla bibendum nunc vitae metus posuere, sit amet varius purus porttitor. Pellentesque dapibus dolor in feugiat suscipit. Donec commodo mattis tellus sed imperdiet. Maecenas a tempus ex. Donec aliquet lacus sed metus pellentesque tincidunt. Duis fringilla urna tortor, nec vulputate lacus facilisis sit amet. Mauris quis dui vitae arcu pulvinar elementum. Morbi sit amet nisl sit amet leo gravida elementum sed sit amet odio. Nulla facilisi. Quisque fringilla ornare nunc, vel volutpat erat ultricies non. Suspendisse posuere, tellus id volutpat facilisis, urna odio mollis nisi, quis rhoncus est ex ac lectus. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    <P>I'm a 15 year old homeschool student from Virginia. I grew up with my two parents and one sibling. I enjoy sports such as soccer, Jiu Jitsu, and playing volleyball with my friends. In my free time, I like playing games such as Dungeons and Dragons and Assassin's Creed. </p>
+                    <p>In my free time, I like playing games such as Dungeons and Dragons and Assassin's Creed. I also enjoy listening to a podcast where they make their own Dungeons and Dragons campaigns and play then they play them. I love it so much because they are very creative and funny.</p>
                     <div class="about__socials"><?php
 
                         // Set socials.
@@ -30,7 +30,7 @@
                             'instagram' => 'https://www.instagram.com',
                             'snapchat'  => 'https://www.snapchat.com',
                             'facebook'  => 'https://www.facebook.com',
-                            'imessage'  => 'tel:1231231234'
+                            'imessage'  => 'tel:540-616-7590'
                         ];
 
                         // Loop.
