@@ -25,24 +25,4 @@
                     <option value="Potato">Potato</option>
                    </select>
                 </p> 
-                <p>
-                    <input type="submit" value="Send" />
-                </p>
-            </form>
-        </div>
-        <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Hobby</th>
-              </tr>
-            </thead>
-            <tbody>
-               <tr>
-                   <td>Caleb</td>
-                   <td>D&D</td>
-               </tr>    
-            </tbody>
-        </table>
-    </body>
-</html>
+                
