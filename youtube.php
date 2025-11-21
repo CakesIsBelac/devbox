@@ -24,18 +24,19 @@
                         <input type="submit" value="Search" />
                     </form>
                     <button id="voice-search">
-                    <img src="/assets/microphone.svg">
+                    <?php include dirname(path: __FILE__) . '/assets/microphone.svg'; ?>
                 </button>
                 </div>
                 <div class="header-inner header-right">
-                <button id="user">
-                    <img src="/assets/user.svg">
-                    <span>Sign In</span>
-                </button>
-                    <button id="vertical-dots">
-                    <img src="/assets/vertical-dots.svg">
+                    <button id="settings">
+                        <?php include dirname(path: __FILE__) . '/assets/vertical-dots.svg'; ?>
                     </button>
-         </div>
+                    <button id="user">
+                        <?php include dirname(path: __FILE__) . '/assets/user.svg'; ?>
+                        <span>Sign In</span>
+                    </button>
+                </div>
+            </div>
         <!-- https://picsum.photos/530/300 -->
     </body>
 </html>
