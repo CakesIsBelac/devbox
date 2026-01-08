@@ -125,7 +125,45 @@
                         ?>
 
                     </div>
+                    <div id="video-content"><?php
+
+                    // Title array.
+                    $titles = [
+                        'title' => [
+                            'How to eat a entire car in 10 seconds',
+                            'Why Will Byers coming out is dumb',
+                            'How to make a home made bomb',
+                            'I am sorry for what I have done',
+                            'Why Better Call Saul is the BEST show ever',
+                            'How to drink motor oil',
+                            'LIVE Playing Minecraft With my dead grandma',
+                            'I got hit by a car!'
+                           ];
+                        
+                        //Videos.
+                        $videos = range( 0 , 8 )
+
+                        //Loop through videos.
+                        foreach( $videos as $video ) {
+
+                            // Random title.
+                            $title = $titles[rand(0 , 8)];
+
+                            //Output.
+                            <div id="video-<?php echo $video; ?>"> " class="video-item"> 
+                                <div class="video-item-image">
+                                <img scr="https://picsum.photos/id/<?php echo rand ( 0, 20 ) /530/300" />
+                            </div>
+                                <div class="video-item-text">
+                                    <h3><?php echo $title; ?></h3>
+                                    <p>Channel <?php echo rand( 1, 500 ); ?></p>
+                                    <p><?php echo rand( 1, 9 ); ?> hours ago</p>
+                            </div>
+                            </div><?php
+
+                        } ?>
+
+                        </div>
             </div>
-        <!-- https://picsum.photos/530/300 -->
     </body>
 </html>
