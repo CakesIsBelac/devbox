@@ -37,6 +37,95 @@
                     </button>
                 </div>
             </div>
+            <div id="content>
+                div id="side-menu"><?php 
+
+                        // Menu array.
+                        $menu_array = [
+                               'menu' => [
+                                   '/'                 => 'Home',
+                                   '/shorts/'          => 'Shorts',
+                               ],
+                               'subscriptions' => [
+                                    '1'             => 'Channel 1',
+                                    '2'             => 'Channel 2',
+                                    '3'             => 'Channel 3',
+                                    '4'             => 'Channel 4',
+                                    '5'             => 'Channel 5',
+
+                               ],
+                                'you'       => [
+                                    '/history'      => 'History',
+                                    '/playlists'    => 'Playlists',
+                                    '/watch-later'  => 'Watch later',
+                                    '/liked-videos' => 'Liked videos',
+                                    '/your-videos'  => 'Your videos',
+                                    '/downloads' => 'Downloads',
+                                    '/show-more' => 'Show more',
+                                    
+                                ],
+                                'explore'        => [
+                                    '/shopping' => 'Shopping',
+                                    '/music'    => 'Music',
+                                    '/movies-tv'   => 'Movies & TV',
+                                    ],
+                                'account'     => [
+                                    '/settings'     => 'Settings',
+                                    '/report'       => 'Report',
+                                    '/help'         => 'Help',
+                                    '/feedback'         => 'Send Feedback',
+                                ],
+
+                            ];
+                            
+                            // Menu loop.
+                            foreach( $menu_array as $section => $menu_items ) {
+
+                                // Output section. ?>
+                                <div class="menu-section menu-section-<?php echo $section; ?>"><?php 
+
+                                // Menu item loop. 
+                                foreach( $menu_items as $url => $label ) {
+
+                                    //Output. ?>
+                                <div class="menu-item menu-item-section-<?php echo $section; ?> menu-item-<?php echo str_replace( '/', '', $url ); ?>">
+                                    <a href="<?php echo $url; ?>"><?php echo $label; ?></a>
+                                </div><?php
+
+                                }
+                                
+
+                            } ?>
+
+                    </div>
+                    <div id="main-content"> 
+                        <div id="category-filter">
+
+                        // Category array.
+                        $categories = [
+                            'All',
+                            'Podcast',
+                            'Gaming',
+                            'Reaction Videos',
+                            'Music',
+                            'Mixes',
+                            'ESports',
+                            'Live'
+
+                        ]; 
+                        
+                        // Loop through categories.
+                        foreach( $categories as $category ) {
+
+                            // Output category. ?>
+                            <a href="<?php echo '/' . urlencode( string: strtolower( string: $category ) ); ?>">
+                            <?php echo $category; ?>
+                        </a><?php
+
+                        ?>
+
+                    </div>
+            </div>
         <!-- https://picsum.photos/530/300 -->
     </body>
 </html>
